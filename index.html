@@ -19,13 +19,17 @@
         <div class="logo">
           <ion-icon name="logo-instagram"></ion-icon>
         </div>
-        <div class="separadora-vertical"></div>
-        <div class="logo-insta">
+        <div class="separadora-vertical mobile"></div>
+        <div class="logo-insta mobile">
           <img src="\images\logo insta.png" />
         </div>
       </div>
+
+      <div class="logo-insta only-mobile">
+        <img src="\images\logo insta.png" />
+      </div>
       
-      <div class="barra-pesquisa roboto">
+      <div class="barra-pesquisa roboto mobile">
         <h1 class="texto-pesquisar">pesquisar</h1>
       </div>
 
@@ -33,13 +37,13 @@
         <div class="icone">
           <ion-icon name="paper-plane-outline"></ion-icon>
         </div>
-        <div class="icone">
+        <div class="icone mobile">
           <ion-icon name="compass-outline"></ion-icon>
         </div>
-        <div class="icone">
+        <div class="icone mobile">
           <ion-icon name="heart-outline"></ion-icon>
         </div>
-        <div class="icone">
+        <div class="icone mobile">
           <ion-icon name="person-outline"></ion-icon>
         </div>
 
@@ -246,6 +250,47 @@
           </div>
           <!-- fim cada publicação -->
 
+          <!-- começo cada publicação -->
+          <div class="publicacao">
+            <!-- começo topo publicação -->
+              <img class="icone-pub" src="\images\meowed.png" />
+              <h1 class="pub-nome roboto">barked</h1>
+              <div class="tres-pontinhos">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+            <!-- fim topo publicação -->
+            
+            <!-- começo imagem publicação -->
+            
+            <video width="612" height="612" controls="controls" autoplay="autoplay">
+              <source src="\video\video.mp4" type="video/mp4">
+              <source src="\video\video.ogv" type="video/ogg">
+            </video>
+            <!-- fim imagem pubçicação -->
+
+            <!-- começo bottom publicação -->
+            <div class="like-pub">
+              <ion-icon name="heart-outline"></ion-icon>
+            </div>
+            <div class="coment-pub">
+              <ion-icon name="chatbubble-outline"></ion-icon>
+            </div>
+            <div class="enviar-pub">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="salvar-pub">
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <img src="\images\adorableanimals.png" class="curtido-pub"/>
+            <p class="curtido-texto roboto">Curtido por
+              <span class="negrito"> adorable_animals</span>
+              e   
+              <span class="negrito"> outras 99.159 pessoas</span>
+            </p>
+            <!-- fim bottom publicação -->
+
+          </div>
+          <!-- fim cada publicação -->
         </div>
         <!-- fim publicações -->
 
@@ -361,6 +406,26 @@
 
     </div>
     <!-- fim conteudo -->
+
+    <div class="bottom only-mobile">
+      <div class="icones-mobile">
+      <div class="icone-mobile">
+        <ion-icon name="home"></ion-icon>
+      </div>
+      <div class="icone-mobile">
+        <ion-icon name="search"></ion-icon>
+      </div>
+      <div class="icone-mobile">
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </div>
+      <div class="icone-mobile">
+        <ion-icon name="heart-outline"></ion-icon>
+      </div>
+      <div class="icone-mobile">
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+      </div>
+    </div>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
